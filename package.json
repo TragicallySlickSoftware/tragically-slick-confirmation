@@ -24,11 +24,6 @@
       }
     ]
   },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    }
-  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^10.2",
