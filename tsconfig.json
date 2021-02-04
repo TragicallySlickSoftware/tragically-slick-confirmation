@@ -12,6 +12,12 @@
     },
     {
       "path": "./projects/confirmation/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/edit-in-place/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/edit-in-place/tsconfig.spec.json"
     }
   ]
 }

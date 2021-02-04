@@ -13,7 +13,11 @@
     "module": "es2020",
     "lib": ["es2018", "dom"],
     "paths": {
-      "confirmation": ["dist/confirmation/confirmation", "dist/confirmation"]
+      "confirmation": ["dist/confirmation/confirmation", "dist/confirmation"],
+      "edit-in-place": [
+        "dist/edit-in-place/edit-in-place",
+        "dist/edit-in-place"
+      ]
     }
   }
 }
