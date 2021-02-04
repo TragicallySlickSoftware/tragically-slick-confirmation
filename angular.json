@@ -1,0 +1,46 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "confirmation": {
+      "projectType": "library",
+      "root": "projects/confirmation",
+      "sourceRoot": "projects/confirmation/src",
+      "prefix": "tsm",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/confirmation/tsconfig.lib.json",
+            "project": "projects/confirmation/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/confirmation/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/confirmation/src/test.ts",
+            "tsConfig": "projects/confirmation/tsconfig.spec.json",
+            "karmaConfig": "projects/confirmation/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/confirmation/tsconfig.lib.json",
+              "projects/confirmation/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**"]
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "confirmation"
+}

@@ -1,0 +1,18 @@
+<h1 mat-dialog-title>
+  {{ title }}
+</h1>
+
+<div mat-dialog-content>
+  <p>{{ message }}</p>
+</div>
+
+<div mat-dialog-actions>
+  <button mat-flat-button color="accent" (click)="onDecline()">
+    <mat-icon>cancel</mat-icon>
+    <mat-label>{{ noButton }}</mat-label>
+  </button>
+  <button mat-flat-button color="primary" (click)="onConfirm()">
+    <mat-icon>check</mat-icon>
+    <mat-label>{{ yesButton }}</mat-label>
+  </button>
+</div>

@@ -1,0 +1,30 @@
+{
+  "name": "@tragically-slick/confirmation",
+  "description": "A reusable confirmation dialog and service",
+  "license": "GPL-3.0-only",
+  "version": "0.1.1-1",
+  "keywords": [
+    "angular",
+    "material",
+    "confirmation",
+    "dialog",
+    "service",
+    "component"
+  ],
+  "author": "Tragically Slick Software, LTD",
+  "contributors": [
+    {
+      "name": "Darryl L. Pierce",
+      "email": "mcpierce@gmail.com"
+    }
+  ],
+  "peerDependencies": {
+    "@angular/cdk": "^10.2.4",
+    "@angular/common": "^10.2.4",
+    "@angular/core": "^10.2.4",
+    "@angular/material": "^10.2.4"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
