@@ -1,24 +1,8 @@
-# Confirmation
+# Tragically Slick Confirmation
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.14.
+## Overview
 
-## Code scaffolding
+The confirmation library provides a easy to use and reusable confirmation system composed of:
 
-Run `ng generate component component-name --project confirmation` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project confirmation`.
-> Note: Don't forget to add `--project confirmation` or else it will be added to the default project in your `angular.json` file. 
-
-## Build
-
-Run `ng build confirmation` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Publishing
-
-After building your library with `ng build confirmation`, go to the dist folder `cd dist/confirmation` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test confirmation` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+ * a component to provide a standard dialog box, and
+ * a service to initiate the process.
