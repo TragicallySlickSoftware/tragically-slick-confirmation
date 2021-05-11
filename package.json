@@ -36,10 +36,14 @@
     "@angular/platform-browser": "^10.2",
     "@angular/platform-browser-dynamic": "^10.2",
     "@angular/router": "^10.2",
+    "is-svg": "^4.2.2",
     "object-path": "^0.11",
+    "postcss": "^8.2.10",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
+    "ua-parser-js": "^0.7.24",
     "webpack-subresource-integrity": "^1.5",
+    "xmlhttprequest-ssl": "^1.6.2",
     "zone.js": "~0.10.3"
   },
   "devDependencies": {
