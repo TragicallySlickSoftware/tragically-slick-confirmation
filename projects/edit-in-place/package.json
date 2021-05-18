@@ -2,7 +2,7 @@
   "name": "@tragically-slick/edit-in-place",
   "description": "A reusable confirmation dialog and service",
   "license": "GPL-3.0-only",
-  "version": "0.1.0-4",
+  "version": "0.1.0-5",
   "keywords": [
     "angular",
     "material",
